@@ -1,0 +1,95 @@
+
+.categories li{
+    display: flex;
+    justify-content: space-around;
+    padding:10 px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
+    font-size: small;
+
+}
+.categories ul:hover{
+    color: blue;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-weight:700;
+    font-style: normal;
+
+    width: 25%;
+    padding: 50px;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left:5%;
+    font-family:Roboto, Arial, sans-serif;
+}
+.display{
+    display: flex;
+}
+.sort{
+    font-family:Roboto, Arial, sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+
+
+#collection{
+    padding-left: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+#collection >div{
+ 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;  
+    padding-bottom: 10px;  
+  }
+  
+  .avatar{
+      height: 350px;
+      width: 300px;
+  }
+  
+  .innerbox{
+      display: flex;
+      justify-content: space-around;
+  }
+  .sellrate{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bold;
+  }
+  .offer{
+    font-size: smaller;
+    font-weight: bold;
+    color: #26a541;
+    padding-left: 30px;
+
+  }
+.brand{
+    color: gray;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 30px;
+}
+.mrp{
+    text-decoration: line-through;
+    color: gray;
+}
+.fil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.subh{
+    font-size:15px; 
+    font-weight:bold;
+     padding-top:5%
+}
